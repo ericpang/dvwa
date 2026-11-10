@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /api/admin
+Disallow: /api/debug/env
+Disallow: /api/internal/metadata
+Disallow: /.env.backup
+Disallow: /api/docs
+# Internal note: Legacy admin backup portal migrated to /api/debug/env
